@@ -1,6 +1,6 @@
 .divheader {
+    position: fixed;
     color: #212529;
-    text-align: left;
     background-color: #f8f9fa!important;
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -11,7 +11,7 @@
     align-items: center;
     padding: .5rem 1rem;
     box-sizing: border-box;
-    font-size: 6px;
+    font-size: 6rem;
     display: inline-block;
     padding-top: .3125rem;
     padding-bottom: .3125rem;
@@ -19,11 +19,12 @@
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
+    text-align: left;
 }
 .links {
     position: relative;
     display: flex;
-    align-items: right;
+    align-items: center;
     padding: .5rem 1rem;
     display: inline-block;
     font-weight: 400;
@@ -34,4 +35,8 @@
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
+    text-align: center;
+}
+#background {
+   
 }
