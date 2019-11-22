@@ -42,10 +42,13 @@
 #background {
     position: 0;
     display: block;
-    text-align: center;
+    text-align: left;
     height: 960px;
     width: 960px;
     padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
     background-color: lightblue;
     margin: auto;
 }
